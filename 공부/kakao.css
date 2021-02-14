@@ -1,0 +1,170 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+}
+body{
+  padding-top: 60px;
+}
+header{
+  box-sizing: content-box;
+  top: 0;
+  left: 0;
+  border-bottom: 1px solid #333;
+  position: fixed;
+  width: 1520px;
+  height: 60px;
+  background-color: white;
+  z-index: 1000;
+}
+.site-header{
+  display: flex;
+  margin: 0 60px;
+  justify-content: space-between;
+}
+
+.site-header a{
+  color: black;
+}
+
+.site-title a{
+  color: #333;
+  text-decoration: none;
+  display: block;
+  margin-top: 20px;
+  font-size: 32px;
+  line-height: 18px;
+}
+.site-menu ul{
+  display: flex;
+  font-size: 16px;
+}
+
+.site-menu a{
+  display: block;
+  height: 60px;
+  line-height: 58px;
+  list-style: none;
+  padding: 0 14px 0 13px;
+}
+
+.site-lang ul{
+  display: flex;
+  font-size: 14px;
+}
+
+.site-lang{
+  margin-top: 17px;
+  line-height: 24px;
+}
+
+.site-lang li{
+  margin-left: 15px;
+}
+.content-video1 video{
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+.content-video1{
+  position: relative;
+  height: 100vh;
+  width: 100%;
+}
+.content-video1 h1{
+  position: relative;
+  top: 137px;
+  left: 128px;
+  color: white;
+  font-weight: 1000;
+  display: inline-block;
+}
+.content1{
+  padding: 85px 80px;
+}
+
+.content-video2, .content2{
+  padding: 50px 50px;
+  background-color: #f4f4f4;
+  border-radius: 20px;
+  height: 640px;
+}
+
+.content-video2 a{
+  margin-top: 25px;
+}
+
+.content-video2 video{
+  width: 100%;
+}
+
+.content-video2 a, .content2 a{
+  display: inline-block;
+  color: black;
+  margin-top: 25px;
+  padding-left: 36px;
+  font-size: 16px;
+  font-weight: 700;
+}
+.content1 h2, .content2 h3{
+  font-size: 42px;
+  color: black;
+}
+
+.content2
+{
+  margin-top: 80px;
+  position: relative;
+}
+
+.content2 img{
+  width: 50%;
+  position: absolute;
+  bottom: 20px;
+  right: 30px;
+}
+.list{
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  margin: 0 auto;
+  padding: 35px 60px 0;
+  justify-content: space-between;
+}
+.a,.b,.c{
+  width: 33.3%;
+  padding: 0 20px;
+}
+
+.a,.b,.c h4{
+  font-size: 14px;
+}
+
+.a p, .c p{
+  padding-top: 18px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.b .p1{
+  padding-top: 33px;
+  font-size: 32px;
+}
+.b .p1 span{
+  font-size: 20px;
+  color: red;
+  padding-left: 20px;
+}
+
+.a .card1{
+  padding-top: 8px;
+  font-size: 8px;
+}
+
+.b p{
+  padding-top: 28px;
+  font-size: 5px;
+}

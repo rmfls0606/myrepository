@@ -1,0 +1,306 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* header시작 */
+.underbar a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+header {
+  position: relative;
+  height: 600px;
+}
+
+header img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1000;
+  width: 100%;
+  height: 100%;
+  opacity: 5;
+}
+
+.underbar {
+  padding-top: 450px;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  margin: 0 123.5px;
+}
+.row{
+  position: absolute;
+  height: 150px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: center;
+  background-image: url(images/bg01.png);
+  overflow: hidden;
+}
+
+.menu ul {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  padding-left: 40px;
+}
+
+.logo a {
+  font-size: 40px;
+  margin-left: 20px;
+  font-weight: bold;
+  line-height: 150px;
+  padding-right: 40px;
+}
+
+.menu a {
+  display: block;
+  font-size: 15.2px;
+  padding: 0 22.8px;
+  height: 150px;
+  line-height: 150px;
+}
+
+#select a {
+  background-color: #FFFFFf;
+  color: black;
+  background-image: url(images/bg01.png);
+}
+
+/* header끝 */
+/* content시작 */
+.content {
+  margin: 0 119.5px;
+  padding: 96px 0 80px;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  background-color: #FFFFFF;
+  justify-content: center;
+  background-image: url(images/bg01.png);
+}
+
+.background{
+  background-color: white;
+  background-image: url(images/bg01.png);
+}
+
+.content h1 {
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: 0.2em;
+}
+
+#mini-little {
+  font-size: 14.4px;
+  font-weight: 400;
+  line-height: 2;
+  color: #6f6f6f;
+  margin-bottom: 48px;
+}
+
+.intro p {
+  font-size: 14px;
+  color: #363636;
+  margin-bottom: 16px;
+  line-height: 180%;
+}
+
+#read {
+  padding-bottom: 48px;
+}
+
+.intro strong {
+  font-weight: bold;
+}
+
+.intro a {
+  color: #2c6503;
+}
+
+.intro a:hover {
+  text-decoration: none;
+}
+
+.fusce h2, .maecenas h2, .mauris h2, .integer h2 {
+  font-size: 25.6px;
+  font-weight: bold;
+  margin-bottom: 3em;
+  letter-spacing: 0.2em;
+}
+
+.fusce p, .maecenas p {
+  margin-bottom: 16px;
+  font-size: 14px;
+  color: #363636;
+  line-height: 180%;
+}
+
+.fusce ul, .maecenas ul, .mauris ul, .integer ul {
+  margin-top: 2.2em;
+}
+
+.fusce li, .maecenas li, .mauris li, .integer li {
+  padding: 12.8px 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+#first {
+  padding-top: 0;
+}
+
+#last {
+  border: none;
+}
+
+.fusce a, .maecenas a, .mauris a, .integer a {
+  color: #2c6503;
+  font-size: 14px;
+  font-weight: 200;
+}
+
+.fusce a:hover, .maecenas a:hover, .mauris a:hover, .integer a:hover {
+  text-decoration: none;
+}
+
+.mauris #last {
+  margin-bottom: 3em;
+}
+
+#click {
+  display: inline-block;
+  text-decoration: none;
+  margin-top: 21.6px;
+  width: 20;
+  font-size: 14.4px;
+  width: 210px;
+  height: 54px;
+  background-color: #e3c714;
+  color: white;
+  text-align: center;
+  line-height: 52px;
+  padding: 7.2px 43.2px 7.2px 28.8px;
+}
+
+.top {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  flex-direction: column;
+  margin-right: 5em;
+}
+
+.under {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: space-between;
+}
+
+.side {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  float: right;
+}
+
+/* content 끝*/
+/* footer시작 */
+footer {
+  border-top: 1px solid #d4d4d4;
+  padding: 80px 0 48px;
+  background-image: url(images/bg01.png);
+  background-color: #EBEBEB;
+}
+
+.footer {
+  text-align: center;
+  margin: 0 119.5px;
+}
+
+.footer h3 {
+  font-size: 32px;
+  margin-bottom: 3em;
+  font-weight: bold;
+  letter-spacing: 0.2em
+}
+
+.footer p {
+  font-size: 24px;
+  margin-bottom: 24px;
+  line-height: 180%;
+}
+
+.untitled {
+  padding: 48px 0 80px;
+  margin: 0 119.5px;
+  text-align: center;
+  border-top: 1px solid #d4d4d4;
+  border-color: #EBEBEB;
+
+
+}
+
+.untitled p {
+  font-size: 14px;
+  margin-bottom: 14.4px;
+  line-height: 180%;
+  letter-spacing: 0.2em;
+}
