@@ -1,0 +1,240 @@
+* {
+  font-family: 'Noto Sans KR', 'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', '돋움', dotum, sans-serif;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+section1, section2, section3, section4 {
+  display: block;
+  text-align: center;
+  width: 1519px;
+  height: 300px;
+  background-color: black;
+  border-bottom: 2px solid white;
+}
+
+section1 p, section2 p, section3 p, section4 p {
+  font-size: 10px;
+  padding-top: 30px;
+  color: white;
+}
+
+ul {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  height: 40px;
+}
+
+ul a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  margin: 10px 15px;
+}
+
+.sebastian {
+  margin-top: 80px;
+}
+
+#bar {
+  width: 30px;
+  height: 2px;
+  background-color: pink;
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+  display: none;
+  transition-duration: 0.4s;
+  -webkit-transition-timing-function: tfunc;
+  -o-transition-timing-function: tfunc;
+  transition-timing-function: cubic-bezier(1, 0.01, 0, 1.2);
+}
+
+.sebastian1, .sebastian2, .sebastian3 {
+  margin-top: 80px;
+}
+
+.sebastian1 a {
+  padding: 10px 0;
+  position: relative;
+}
+
+.sebastian1 a::before {
+  content: '';
+  width: 0px;
+  height: 2px;
+  background-color: pink;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition-duration: 0.4s;
+}
+
+.sebastian1 a::after {
+  content: '';
+  width: 0px;
+  height: 2px;
+  background-color: pink;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transition-duration: 0.4s;
+}
+
+.sebastian1 a:focus::before {
+  width: 100%;
+  transition-duration: 0.4s;
+}
+
+.sebastian1 a:focus::after {
+  width: 100%;
+  transition-duration: 0.4s;
+}
+
+.sebastian2 a, .sebastian3 a {
+  padding: 10px 10px;
+  position: relative;
+}
+
+.sebastian2 a::before {
+  content: '';
+  width: 0;
+  height: 2px;
+  background-color: pink;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transition-duration: 0.4s;
+  overflow: hidden;
+}
+
+.sebastian2 a:focus::before {
+  left: 0;
+  width: 100%;
+  transition-duration: 0.4s;
+}
+
+.sebastian3 a::before {
+  content: '';
+  width: 0;
+  height: 2px;
+  background-color: pink;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transition-duration: 0.2s;
+  transition-delay: 0.6s;
+}
+
+.sebastian3 a::after {
+  content: '';
+  width: 2px;
+  height: 0;
+  background-color: pink;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transition-duration: 0.2s;
+  transition-delay: 0.4s;
+}
+
+.sebastian3 a:focus::before {
+  width: 100%;
+  right: 0;
+  transition-duration: 0.2s;
+  transition-delay: 0s;
+}
+
+.sebastian3 a:focus::after {
+  bottom: 0;
+  height: 100%;
+  transition-duration: 0.2s;
+  transition-delay: 0.2s;
+}
+
+.sebastian3 span::before {
+  content: '';
+  width: 0;
+  height: 2px;
+  background-color: pink;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition-duration: 0.2s;
+  transition-delay: 0.2s;
+}
+
+.sebastian3 span::after {
+  content: '';
+  width: 2px;
+  height: 0;
+  background-color: pink;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transition-duration: 0.2s;
+}
+
+.sebastian3 a:focus span::before {
+  content: '';
+  width: 100%;
+  transition-duration: 0.2s;
+  transition-delay: 0.4s;
+}
+
+.sebastian3 a:focus span::after {
+  content: '';
+  height: 100%;
+  transition-duration: 0.2s;
+  transition-delay: 0.6s;
+}
